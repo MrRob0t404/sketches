@@ -6,7 +6,7 @@ import { UnrealBloomPass } from "https://cdn.jsdelivr.net/npm/three@0.175.0/exam
 
 const w = window.innerWidth;
 const h = window.innerHeight;
-
+console.log('hello world')
 const scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2(0x000000, 0.035);
 const camera = new THREE.PerspectiveCamera(75, w / h, 0.1, 1000);
